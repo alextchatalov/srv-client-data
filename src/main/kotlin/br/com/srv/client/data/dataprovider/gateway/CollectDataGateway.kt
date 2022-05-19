@@ -7,7 +7,7 @@ import br.com.srv.client.data.dataprovider.repository.EquipmentRepository
 import org.springframework.stereotype.Controller
 
 @Controller
-class CollectDataGateway(val repository: EquipmentRepository): CollectDataBoundary {
+class CollectDataGateway(val repository: EquipmentRepository) : CollectDataBoundary {
 
     override fun execute(): List<Equipment> {
         val equipmentProjections = repository.findAllEquipment()

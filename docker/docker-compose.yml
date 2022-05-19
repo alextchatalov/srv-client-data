@@ -8,7 +8,7 @@ services:
     ports:
       - "15432:5432"
     volumes:
-      - /home/alex/volume/postgresql:/var/lib/postgresql/data
+      - /Users/alex.chatalov/Documents/volume/postgresql:/var/lib/postgresql/data
     networks:
       - postgres-compose-network
 

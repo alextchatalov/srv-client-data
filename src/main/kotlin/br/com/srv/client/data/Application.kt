@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Bean
 class Application
 
 fun main(args: Array<String>) {
-	runApplication<Application>(*args)
+    runApplication<Application>(*args)
 }
 
 @Bean
 fun feignLoggerLevel(): Logger.Level? {
-	return Logger.Level.FULL
+    return Logger.Level.FULL
 }

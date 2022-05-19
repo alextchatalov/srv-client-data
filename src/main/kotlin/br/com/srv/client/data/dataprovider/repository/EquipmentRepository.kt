@@ -4,11 +4,14 @@ import br.com.srv.client.data.dataprovider.entity.EquipmentEntity
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 
-interface EquipmentRepository: JpaRepository<EquipmentEntity, String>{
+interface EquipmentRepository : JpaRepository<EquipmentEntity, String> {
 
-    @Query("SELECT id as id, \n" +
+    @Query(
+        "SELECT id as id, \n" +
             "equipment_name, \n" +
             "temperature \n" +
-            "FROM equipment \n", nativeQuery = true)
+            "FROM equipment \n",
+        nativeQuery = true
+    )
     fun findAllEquipment(): List<EquipmentEntity>
 }

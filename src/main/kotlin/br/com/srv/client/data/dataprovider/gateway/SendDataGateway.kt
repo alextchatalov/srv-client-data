@@ -5,10 +5,8 @@ import br.com.srv.client.data.dataprovider.client.SendDataClient
 import org.springframework.stereotype.Controller
 
 @Controller
-class SendDataGateway(val sendDataClient: SendDataClient): SendDataBoundary {
+class SendDataGateway(val sendDataClient: SendDataClient) : SendDataBoundary {
     override fun execute(sendEquipments: List<SendEquipment>) {
         sendDataClient.send(sendEquipments)
     }
-
-
 }

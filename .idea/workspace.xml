@@ -5,25 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c286c1-97ae-400e-a074-1c4b4da0e005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/demo.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/config/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/model/Equipment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/model/SendEquipment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/usecase/CollectDataBoundary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/usecase/ProcessDataClientUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/usecase/SendDataBoundary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/client/SendDataClient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/entity/EquipmentEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/CollectDataGateway.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/InsertEquipment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/projection/EquipmentEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/repository/EquipmentRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/entrypoint/job/CollectDataJob.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client.data-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/usecase/CollectDataBoundary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/core/usecase/CollectDataBoundary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/client/SendDataClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/client/SendDataClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/CollectDataGateway.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/CollectDataGateway.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/InsertEquipment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/InsertEquipment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/repository/EquipmentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/repository/EquipmentRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/entrypoint/job/CollectDataJob.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/entrypoint/job/CollectDataJob.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/client.data.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/ApplicationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/ApplicationKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/model/Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/model/Equipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/model/SendEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/model/SendEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/CollectDataBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/CollectDataBoundary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/ProcessDataClientUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/ProcessDataClientUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/SendDataBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/core/usecase/SendDataBoundary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/client/SendDataClient$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/client/SendDataClient$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/client/SendDataClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/client/SendDataClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/entity/EquipmentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/entity/EquipmentEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/CollectDataGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/CollectDataGateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/InsertEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/InsertEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/mapper/EquipmentProjectionToEquipmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/projection/EquipmentProjection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/projection/EquipmentProjection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/repository/EquipmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/dataprovider/repository/EquipmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/entrypoint/job/CollectDataJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/srv/client/data/entrypoint/job/CollectDataJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/client.data.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/srv/client/data/ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/srv/client/data/ApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +85,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/alex/repository/srv-client-data",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/alex.chatalov/Documents/repository/alex/srv-client-data",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
@@ -90,7 +110,21 @@
       <recent name="br.com.srv.client.data.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.ApplicationKt (1)">
+    <configuration name="ApplicationKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.srv.client.data.ApplicationKt" />
+      <module name="srv-client-data" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.srv.receiver.data.ApplicationKt" />
+      <module name="receiver.data" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.srv.client.data.ApplicationKt" />
       <module name="client.data" />
@@ -98,6 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ApplicationKt (1)" />
+        <item itemvalue="Kotlin.ApplicationKt (2)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,5 +163,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/srv/client/data/dataprovider/gateway/SendDataGateway.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
